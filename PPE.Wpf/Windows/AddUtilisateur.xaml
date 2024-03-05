@@ -1,0 +1,55 @@
+﻿<Window x:Class="PPE.Wpf.Windows.AddUtilisateur"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:Icon="http://metro.mahapps.com/winfx/xaml/iconpacks"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:viewmodels="clr-namespace:PPE.Wpf.ViewModels"   
+        d:DataContext="{d:DesignInstance Type= viewmodels:UserVM}"  
+        mc:Ignorable="d" 
+        Title="AddUtlisateur" Height="450" Width="600">
+    <Grid>
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="250"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="35"/>
+                <RowDefinition Height="35"/>
+                <RowDefinition Height="35"/>
+                <RowDefinition Height="35"/>
+                <RowDefinition Height="35"/>
+                <RowDefinition Height="35"/>
+                <RowDefinition Height="60"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <Label Content="Nom" Grid.Row="1" Grid.Column="0" HorizontalAlignment="Right"/>
+            <TextBox x:Name="txtNom" Text="{Binding SelectedUser.LastName}" Style="{StaticResource textBoxAdd}" Grid.Row="1"/>
+
+            <Label Content="Prénom" Grid.Row="2" Grid.Column="0" HorizontalAlignment="Right"/>
+            <TextBox x:Name="txtPrenom" Text="{Binding SelectedUser.FirstName}" Grid.Row="2" Style="{StaticResource textBoxAdd}"/>
+
+            <Label Content="Adresse" Grid.Row="3" Grid.Column="0" HorizontalAlignment="Right"/>
+            <TextBox x:Name="txtAdresse" Text="{Binding SelectedUser.Addresse}" Grid.Row="3" Grid.Column="1" Style="{StaticResource textBoxAdd}"/>
+
+            <Label Content="Email" Grid.Row="4" Grid.Column="0" HorizontalAlignment="Right"/>
+            <TextBox x:Name="txtEmail" Text="{Binding SelectedUser.Email}" Grid.Row="4" Grid.Column="1" Style="{StaticResource textBoxAdd}"/>
+
+            <Label Content="Mot de Passe" Grid.Row="5" Grid.Column="0" HorizontalAlignment="Right"/>
+            <TextBox x:Name="txtPassword" Text="{Binding SelectedUser.Password}" Grid.Row="5" Grid.Column="1" Style="{StaticResource textBoxAdd}"/>
+
+            <Label Content="Rôle" Grid.Row="6" Grid.Column="0" HorizontalAlignment="Right"/>
+            <ComboBox ItemsSource="{Binding Roles}" x:Name="cmbRole"  SelectedItem="{Binding SelectedUser.Roles}"  Grid.Row="6" Grid.Column="1" Style="{StaticResource textBoxAdd}"/>
+
+            <Button Click="Ajout_Click" Grid.Row="7" Margin="0 0 0 25" Grid.Column="1" Style="{StaticResource add}">
+                <StackPanel Orientation="Horizontal">
+                    <Icon:PackIconMaterial Kind="Plus" VerticalAlignment="Center" Width="11" Height="11" Margin="0 1 8 0"/>
+                    <TextBlock Text="Ajouter"/>
+                </StackPanel>
+            </Button>
+        </Grid>
+    </Grid>
+</Window>

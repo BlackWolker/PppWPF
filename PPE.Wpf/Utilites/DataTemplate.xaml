@@ -1,0 +1,31 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:vm="clr-namespace:PPE.Wpf.ViewModels"
+                    xmlns:view="clr-namespace:PPE.Wpf.View">
+
+
+    <DataTemplate DataType="{x:Type vm:BaieVM}">
+        <view:BaieView />
+    </DataTemplate>
+
+    <DataTemplate DataType="{x:Type vm:UniteVM}">
+        <view:UniteView />
+    </DataTemplate>
+
+    <DataTemplate DataType="{x:Type vm:UserVM}">
+        <view:UserView />
+    </DataTemplate>
+
+    <DataTemplate DataType="{x:Type vm:PackVM}">
+        <view:PackView/>
+    </DataTemplate>
+
+    <DataTemplate DataType="{x:Type vm:ReservationVM}">
+        <view:ReservationView />
+    </DataTemplate>
+
+    <DataTemplate DataType="UserControl">
+        <view:AccueilView/>
+    </DataTemplate>
+
+</ResourceDictionary>

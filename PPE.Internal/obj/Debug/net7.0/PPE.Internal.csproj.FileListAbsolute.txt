@@ -1,0 +1,11 @@
+C:\Users\Utilisateur\Desktop\Epreuve E5\PPE.Wpf\PPE.Internal\bin\Debug\net7.0\PPE.Internal.deps.json
+C:\Users\Utilisateur\Desktop\Epreuve E5\PPE.Wpf\PPE.Internal\bin\Debug\net7.0\PPE.Internal.dll
+C:\Users\Utilisateur\Desktop\Epreuve E5\PPE.Wpf\PPE.Internal\bin\Debug\net7.0\PPE.Internal.pdb
+C:\Users\Utilisateur\Desktop\Epreuve E5\PPE.Wpf\PPE.Internal\obj\Debug\net7.0\PPE.Internal.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Utilisateur\Desktop\Epreuve E5\PPE.Wpf\PPE.Internal\obj\Debug\net7.0\PPE.Internal.AssemblyInfoInputs.cache
+C:\Users\Utilisateur\Desktop\Epreuve E5\PPE.Wpf\PPE.Internal\obj\Debug\net7.0\PPE.Internal.AssemblyInfo.cs
+C:\Users\Utilisateur\Desktop\Epreuve E5\PPE.Wpf\PPE.Internal\obj\Debug\net7.0\PPE.Internal.csproj.CoreCompileInputs.cache
+C:\Users\Utilisateur\Desktop\Epreuve E5\PPE.Wpf\PPE.Internal\obj\Debug\net7.0\PPE.Internal.dll
+C:\Users\Utilisateur\Desktop\Epreuve E5\PPE.Wpf\PPE.Internal\obj\Debug\net7.0\refint\PPE.Internal.dll
+C:\Users\Utilisateur\Desktop\Epreuve E5\PPE.Wpf\PPE.Internal\obj\Debug\net7.0\PPE.Internal.pdb
+C:\Users\Utilisateur\Desktop\Epreuve E5\PPE.Wpf\PPE.Internal\obj\Debug\net7.0\ref\PPE.Internal.dll

@@ -1,0 +1,20 @@
+﻿PPE.Wpf
+1.0.0.0
+
+winexe
+C#
+.cs
+C:\Users\Utilisateur\Desktop\Epreuve E5\PPE.Wpf\PPE.Wpf\obj\Debug\net7.0-windows\
+PPE.Wpf
+none
+false
+TRACE;DEBUG;NET;NET7_0;NETCOREAPP
+C:\Users\Utilisateur\Desktop\Epreuve E5\PPE.Wpf\PPE.Wpf\App.xaml
+18643840210
+
+20-1467752701
+234-943740198
+MainWindow.xaml;Styles\Add.xaml;Styles\Button.xaml;Styles\HomeStyle.xaml;Styles\Images.xaml;Styles\LoginStyle.xaml;Styles\Styles.xaml;Styles\Text.xaml;Utilites\DataTemplate.xaml;View\AccueilView.xaml;View\BaieView.xaml;View\PackView.xaml;View\ReservationView.xaml;View\UniteView.xaml;View\UserView.xaml;Windows\AddPack.xaml;Windows\AddUtilisateur.xaml;Windows\LoginWindow.xaml;
+
+False
+

@@ -1,0 +1,98 @@
+﻿using Microsoft.EntityFrameworkCore;
+using PPE.DBLib.Class;
+using System;
+using System.Collections.Generic;
+using System.Collections.ObjectModel;
+using System.Linq;
+using System.Text;
+using System.Windows;
+
+namespace PPE.Wpf.ViewModels
+{
+    class PackVM
+    {
+        #region Attributs
+        /// <summary>
+        /// Collection observable des pack
+        /// </summary>
+        private ObservableCollection<Pack> _Packs;
+
+        /// <summary>
+        /// Pack sélectionné
+        /// </summary>
+        private Pack _SelectedPack;
+
+        /// <summary>
+        /// Ajout de pack
+        /// </summary>
+        private Pack _AddPack;
+
+        #endregion
+
+        #region Proprietes
+        public ObservableCollection<Pack> Packs 
+        {
+            get { return _Packs; }
+            set { _Packs = value; }
+        }
+
+        public Pack SelectedPack 
+        { 
+            get => _SelectedPack; 
+            set => _SelectedPack = value;
+        }
+
+        public Pack AddPack
+        {
+            get { return _AddPack; }
+            set { _AddPack = value; }
+        }
+
+        #endregion
+
+        #region Constructeur
+
+        /// <summary>
+        /// Constructeur du ViewModel réservation.
+        /// Initialise la collection des réservations à partir de la base de données.
+        /// </summary>
+        public PackVM()
+        {
+            using (PperemastoreContext context = new ())
+            {
+                this.Packs = new ObservableCollection<Pack>(context.Packs);
+            }
+        }
+        #endregion
+
+        #region Methodes
+
+        /// <summary>
+        /// 
+        /// </summary>
+        internal void RemovePack(object parameter = null)
+        {
+            using (PperemastoreContext Context = new())
+            {
+                if (SelectedPack != null)
+                {
+                    MessageBoxResult result = MessageBox.Show("Voulez-vous vraiment supprimer cet Pack?", "Attention", MessageBoxButton.YesNo);
+                    if (result == MessageBoxResult.No)
+                    {
+                        return;
+                    }
+                    else
+                    {
+                        // Supprimer les réservations associées à l'employé
+                        Context.Reservations.RemoveRange(SelectedPack.Reservations);
+
+                        Context.Packs.Remove(SelectedPack);
+                        Context.SaveChanges();
+                    }
+                }
+            }
+        }
+    }
+        #endregion
+    
+}

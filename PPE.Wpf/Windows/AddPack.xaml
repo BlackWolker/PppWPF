@@ -1,0 +1,43 @@
+﻿<Window x:Class="PPE.Wpf.Windows.AddPack"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:Icon="http://metro.mahapps.com/winfx/xaml/iconpacks"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:viewmodels="clr-namespace:PPE.Wpf.ViewModels"   
+        d:DataContext="{d:DesignInstance Type= viewmodels:PackVM}"
+        mc:Ignorable="d"
+        Title="AddPack" Height="450" Width="800">
+    <Grid>
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="250"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="35"/>
+                <RowDefinition Height="35"/>
+                <RowDefinition Height="35"/>
+                <RowDefinition Height="60"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <Label Content="Nom" Grid.Row="1" Grid.Column="0" HorizontalAlignment="Right"/>
+            <TextBox x:Name="txtName" Text="{Binding SelectedPack.Name}" Style="{StaticResource textBoxAdd}" Grid.Row="1"/>
+
+            <Label Content="Type" Grid.Row="2" Grid.Column="0" HorizontalAlignment="Right"/>
+            <TextBox x:Name="txtType" Text="{Binding SelectedPack.Type}" Grid.Row="2" Style="{StaticResource textBoxAdd}"/>
+
+            <Label Content="Prix" Grid.Row="3" Grid.Column="0" HorizontalAlignment="Right"/>
+            <TextBox x:Name="txtPrice" Text="{Binding SelectedPack.Price}" Grid.Row="3" Grid.Column="1" Style="{StaticResource textBoxAdd}"/>
+
+            <Button Click="Ajout_Click" Grid.Row="4" Margin="0 0 0 25" Grid.Column="1" Style="{StaticResource add}">
+                <StackPanel Orientation="Horizontal">
+                    <Icon:PackIconMaterial Kind="Plus" VerticalAlignment="Center" Width="11" Height="11" Margin="0 1 8 0"/>
+                    <TextBlock Text="Ajouter"/>
+                </StackPanel>
+            </Button>
+        </Grid>
+    </Grid>
+</Window>
