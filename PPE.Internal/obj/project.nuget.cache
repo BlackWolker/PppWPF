@@ -1,12 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "9ZE9cajQ3l8WWNsqaCZQEnm8bBmenShSgpUm6pHIHZYe3SpF1Jx97vOshld9pxS8QqLDEsK+pWN5Zs3XNdMqVA==",
+  "dgSpecHash": "4NQjJI03nBB15lFYiPkoLMtNaJI84WLRohcfDRzzCmVi3iSjoikhdz+RWCqFMW51WG+Jw6BZcjkp3nGIXPlzRw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Utilisateur\\Desktop\\Epreuve E5\\PPE.Wpf\\PPE.Internal\\PPE.Internal.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\Utilisateur\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.16\\microsoft.windowsdesktop.app.ref.7.0.16.nupkg.sha512",
-    "C:\\Users\\Utilisateur\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.16\\microsoft.netcore.app.ref.7.0.16.nupkg.sha512",
-    "C:\\Users\\Utilisateur\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.16\\microsoft.aspnetcore.app.ref.7.0.16.nupkg.sha512"
-  ],
+  "projectFilePath": "Z:\\Desktop\\C#\\WPF\\PppWPF\\PPE.Internal\\PPE.Internal.csproj",
+  "expectedPackageFiles": [],
   "logs": []
 }

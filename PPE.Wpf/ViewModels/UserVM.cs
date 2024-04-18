@@ -67,7 +67,7 @@ namespace PPE.Wpf.ViewModels
         {
             Roles = new List<string>();
             Roles.Add("ADMIN");
-            Roles.Add("USER");
+            Roles.Add("ClIENT");
             using (PperemastoreContext context = new())
             {
                 this.Users = new ObservableCollection<User>(context.Users);

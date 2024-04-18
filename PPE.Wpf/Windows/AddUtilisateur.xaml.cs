@@ -40,7 +40,7 @@ namespace PPE.Wpf.Windows
             
             using (PperemastoreContext Context = new())
             {
-                User selectedRole = cmbRole.SelectedItem as User;
+                String selectedRole = cmbRole.SelectedItem as String;
 
                 if (txtNom.Text == "" || txtPrenom.Text == "" || txtEmail.Text == "" || txtPassword.Text == "")
                 {
@@ -52,10 +52,10 @@ namespace PPE.Wpf.Windows
                 {
                     LastName = txtNom.Text,
                     FirstName = txtPrenom.Text,
-                    Addresse = txtAddresse.Text,
+                    Addresse = txtAdresse.Text,
                     Email = txtEmail.Text,
                     Password = txtPassword.Text,
-                    Roles = selectedRole.Roles,
+                    Roles = selectedRole,
 
                 };
 

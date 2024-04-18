@@ -68,7 +68,7 @@ namespace PPE.Wpf.ViewModels
         #region Methodes
 
         /// <summary>
-        /// 
+        /// supression d'un pack
         /// </summary>
         internal void RemovePack(object parameter = null)
         {
@@ -92,6 +92,41 @@ namespace PPE.Wpf.ViewModels
                 }
             }
         }
+
+        /// <summary>
+        /// 
+        /// </summary>
+        //public void updatePack()
+        //{
+        //    using (PperemastoreContext ctx = new())
+        //    {
+        //        if (this.SelectedPack != null)
+        //        {
+        //            var packToUpdate = ctx.Packs.Find(SelectedPack.Id);
+
+        //            if (packToUpdate != null)
+        //            {
+
+        //                packToUpdate.Reduction = this.SelectedPack.Reduction;
+        //                packToUpdate.Nom = this.SelectedPack.Nom;
+        //                packToUpdate.Prix = this.SelectedPack.Prix;
+        //                packToUpdate.NombreEmplacement = this.SelectedPack.NombreEmplacement;
+
+        //                ctx.SaveChanges();
+        //            }
+        //            else
+        //            {
+        //                MessageBox.Show("Erreur veuillez sélectionner un champ valide");
+        //            }
+        //        }
+        //        else
+        //        {
+        //            MessageBox.Show("Erreur veuillez sélectionner un champ");
+        //        }
+        //    }
+        //}
+
+        //internal bool updatePack(object? parameter = null) => this.SelectedPack != null;
     }
         #endregion
     

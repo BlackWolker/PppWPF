@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PPE.DBLib")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c755f9f6d4fc0ec5241b2f806d57ba434dd4c82a")]
 [assembly: System.Reflection.AssemblyProductAttribute("PPE.DBLib")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PPE.DBLib")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

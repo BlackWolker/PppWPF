@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\Utilisateur\Desktop\Epreuve E5\PPE.Wpf\PPE.Wpf\obj\Debug\net7.0-windows\
+Z:\Desktop\C#\WPF\PppWPF\PPE.Wpf\obj\Debug\net7.0-windows\
 PPE.Wpf
 none
 false
 TRACE;DEBUG;NET;NET7_0;NETCOREAPP
-C:\Users\Utilisateur\Desktop\Epreuve E5\PPE.Wpf\PPE.Wpf\App.xaml
+Z:\Desktop\C#\WPF\PppWPF\PPE.Wpf\App.xaml
 18643840210
 
 18-1819703915
-234-943740198
+2341340826141
 MainWindow.xaml;Styles\Add.xaml;Styles\Button.xaml;Styles\HomeStyle.xaml;Styles\Images.xaml;Styles\LoginStyle.xaml;Styles\Styles.xaml;Styles\Text.xaml;Utilites\DataTemplate.xaml;View\AccueilView.xaml;View\BaieView.xaml;View\PackView.xaml;View\ReservationView.xaml;View\UniteView.xaml;View\UserView.xaml;Windows\AddPack.xaml;Windows\AddUtilisateur.xaml;Windows\LoginWindow.xaml;
 
-True
+False
 

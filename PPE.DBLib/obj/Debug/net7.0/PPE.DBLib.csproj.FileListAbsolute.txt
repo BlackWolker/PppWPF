@@ -12,3 +12,18 @@ C:\Users\Utilisateur\Desktop\Epreuve E5\PPE.Wpf\PPE.DBLib\obj\Debug\net7.0\refin
 C:\Users\Utilisateur\Desktop\Epreuve E5\PPE.Wpf\PPE.DBLib\obj\Debug\net7.0\PPE.DBLib.pdb
 C:\Users\Utilisateur\Desktop\Epreuve E5\PPE.Wpf\PPE.DBLib\obj\Debug\net7.0\PPE.DBLib.genruntimeconfig.cache
 C:\Users\Utilisateur\Desktop\Epreuve E5\PPE.Wpf\PPE.DBLib\obj\Debug\net7.0\ref\PPE.DBLib.dll
+Z:\Desktop\C#\WPF\PppWPF\PPE.DBLib\bin\Debug\net7.0\PPE.DBLib.deps.json
+Z:\Desktop\C#\WPF\PppWPF\PPE.DBLib\bin\Debug\net7.0\PPE.DBLib.runtimeconfig.json
+Z:\Desktop\C#\WPF\PppWPF\PPE.DBLib\bin\Debug\net7.0\PPE.DBLib.dll
+Z:\Desktop\C#\WPF\PppWPF\PPE.DBLib\bin\Debug\net7.0\PPE.DBLib.pdb
+Z:\Desktop\C#\WPF\PppWPF\PPE.DBLib\obj\Debug\net7.0\PPE.DBLib.csproj.AssemblyReference.cache
+Z:\Desktop\C#\WPF\PppWPF\PPE.DBLib\obj\Debug\net7.0\PPE.DBLib.GeneratedMSBuildEditorConfig.editorconfig
+Z:\Desktop\C#\WPF\PppWPF\PPE.DBLib\obj\Debug\net7.0\PPE.DBLib.AssemblyInfoInputs.cache
+Z:\Desktop\C#\WPF\PppWPF\PPE.DBLib\obj\Debug\net7.0\PPE.DBLib.AssemblyInfo.cs
+Z:\Desktop\C#\WPF\PppWPF\PPE.DBLib\obj\Debug\net7.0\PPE.DBLib.csproj.CoreCompileInputs.cache
+Z:\Desktop\C#\WPF\PppWPF\PPE.DBLib\obj\Debug\net7.0\PPE.DBLib.sourcelink.json
+Z:\Desktop\C#\WPF\PppWPF\PPE.DBLib\obj\Debug\net7.0\PPE.DBLib.dll
+Z:\Desktop\C#\WPF\PppWPF\PPE.DBLib\obj\Debug\net7.0\refint\PPE.DBLib.dll
+Z:\Desktop\C#\WPF\PppWPF\PPE.DBLib\obj\Debug\net7.0\PPE.DBLib.pdb
+Z:\Desktop\C#\WPF\PppWPF\PPE.DBLib\obj\Debug\net7.0\PPE.DBLib.genruntimeconfig.cache
+Z:\Desktop\C#\WPF\PppWPF\PPE.DBLib\obj\Debug\net7.0\ref\PPE.DBLib.dll
