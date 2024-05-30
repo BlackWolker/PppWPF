@@ -20,6 +20,7 @@
                 <RowDefinition Height="35"/>
                 <RowDefinition Height="35"/>
                 <RowDefinition Height="35"/>
+                <RowDefinition Height="35"/>
                 <RowDefinition Height="60"/>
                 <RowDefinition Height="*"/>
             </Grid.RowDefinitions>
@@ -32,7 +33,10 @@
             <Label Content="Prix" Grid.Row="3" Grid.Column="0" HorizontalAlignment="Right"/>
             <TextBox x:Name="txtPrice" Text="{Binding SelectedPack.Price}" Grid.Row="3" Grid.Column="1" Style="{StaticResource textBoxAdd}"/>
 
-            <Button Click="Ajout_Click" Grid.Row="4" Margin="0 0 0 25" Grid.Column="1" Style="{StaticResource add}">
+            <Label Content="Nombre emplacement" Grid.Row="4" Grid.Column="0" HorizontalAlignment="Right"/>
+            <TextBox x:Name="txtNbSlot" Text="{Binding SelectedPack.NbSlot}" Grid.Row="4" Grid.Column="1" Style="{StaticResource textBoxAdd}"/>
+
+            <Button Click="Ajout_Click" Grid.Row="5" Margin="0 0 0 25" Grid.Column="1" Style="{StaticResource add}">
                 <StackPanel Orientation="Horizontal">
                     <Icon:PackIconMaterial Kind="Plus" VerticalAlignment="Center" Width="11" Height="11" Margin="0 1 8 0"/>
                     <TextBlock Text="Ajouter"/>

@@ -15,6 +15,10 @@ public partial class Reservation
 
     public DateTime DateEnd { get; set; }
 
+    public int Quantity { get; set; }
+
+    public bool? Renew { get; set; }
+
     public virtual User Customer { get; set; } = null!;
 
     public virtual Pack Pack { get; set; } = null!;

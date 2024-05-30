@@ -1,18 +1,8 @@
-﻿using PPE.DBLib.Class;
+﻿using System;
+using PPE.DBLib.Class;
 using PPE.Wpf.ViewModels;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows;
-using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Shapes;
+
 
 namespace PPE.Wpf.Windows
 {
@@ -38,7 +28,7 @@ namespace PPE.Wpf.Windows
 
             using (PperemastoreContext Context = new())
             {
-                if (txtName.Text == "" || txtType.Text == "" || txtPrice.Text == "")
+                if (txtName.Text == "" || txtType.Text == "" || txtPrice.Text == "" || txtNbSlot.Text == "")
                 {
                     MessageBox.Show("Vous devez remplir tous les champs.", "Attention");
                     return;
@@ -49,7 +39,7 @@ namespace PPE.Wpf.Windows
                     Name = txtName.Text,
                     Type = txtType.Text,
                     Price = int.Parse(txtPrice.Text),
-
+                    NbSlot = int.Parse(txtNbSlot.Text)
                 };
 
                 if (pack != null)

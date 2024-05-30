@@ -15,5 +15,7 @@ public partial class Pack
 
     public string? PicturePath { get; set; }
 
+    public int NbSlot { get; set; }
+
     public virtual ICollection<Reservation> Reservations { get; set; } = new List<Reservation>();
 }

@@ -7,7 +7,7 @@ public partial class Unite
 {
     public int Id { get; set; }
 
-    public int ReservationIdId { get; set; }
+    public int? ReservationIdId { get; set; }
 
     public int BaieIdId { get; set; }
 
@@ -17,5 +17,5 @@ public partial class Unite
 
     public virtual Baie BaieId { get; set; } = null!;
 
-    public virtual Reservation ReservationId { get; set; } = null!;
+    public virtual Reservation? ReservationId { get; set; }
 }

@@ -1,15 +1,12 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using PPE.DBLib.Class;
-using System;
-using System.Collections.Generic;
+using PPE.Internal;
 using System.Collections.ObjectModel;
-using System.Linq;
-using System.Text;
 using System.Windows;
 
 namespace PPE.Wpf.ViewModels
 {
-    class PackVM
+    class PackVM : ObservableObjet
     {
         #region Attributs
         /// <summary>
@@ -30,22 +27,22 @@ namespace PPE.Wpf.ViewModels
         #endregion
 
         #region Proprietes
-        public ObservableCollection<Pack> Packs 
+        public ObservableCollection<Pack> Packs
         {
             get { return _Packs; }
-            set { _Packs = value; }
+            set { SetProperty(nameof(Packs), ref _Packs, value); }
         }
 
-        public Pack SelectedPack 
-        { 
-            get => _SelectedPack; 
-            set => _SelectedPack = value;
+        public Pack SelectedPack
+        {
+            get => _SelectedPack;
+            set => SetProperty(nameof(SelectedPack), ref _SelectedPack, value);
         }
 
         public Pack AddPack
         {
             get { return _AddPack; }
-            set { _AddPack = value; }
+            set { SetProperty(nameof(AddPack), ref _AddPack, value); }
         }
 
         #endregion

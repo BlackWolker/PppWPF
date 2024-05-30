@@ -102,8 +102,9 @@ namespace PPE.Wpf.ViewModels
                 }
             }
         }
+        #endregion
 
     }
-        #endregion
-    
+
+
 }

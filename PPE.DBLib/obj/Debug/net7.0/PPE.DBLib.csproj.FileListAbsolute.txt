@@ -1,17 +1,3 @@
-C:\Users\Utilisateur\Desktop\Epreuve E5\PPE.Wpf\PPE.DBLib\bin\Debug\net7.0\PPE.DBLib.deps.json
-C:\Users\Utilisateur\Desktop\Epreuve E5\PPE.Wpf\PPE.DBLib\bin\Debug\net7.0\PPE.DBLib.runtimeconfig.json
-C:\Users\Utilisateur\Desktop\Epreuve E5\PPE.Wpf\PPE.DBLib\bin\Debug\net7.0\PPE.DBLib.dll
-C:\Users\Utilisateur\Desktop\Epreuve E5\PPE.Wpf\PPE.DBLib\bin\Debug\net7.0\PPE.DBLib.pdb
-C:\Users\Utilisateur\Desktop\Epreuve E5\PPE.Wpf\PPE.DBLib\obj\Debug\net7.0\PPE.DBLib.csproj.AssemblyReference.cache
-C:\Users\Utilisateur\Desktop\Epreuve E5\PPE.Wpf\PPE.DBLib\obj\Debug\net7.0\PPE.DBLib.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Utilisateur\Desktop\Epreuve E5\PPE.Wpf\PPE.DBLib\obj\Debug\net7.0\PPE.DBLib.AssemblyInfoInputs.cache
-C:\Users\Utilisateur\Desktop\Epreuve E5\PPE.Wpf\PPE.DBLib\obj\Debug\net7.0\PPE.DBLib.AssemblyInfo.cs
-C:\Users\Utilisateur\Desktop\Epreuve E5\PPE.Wpf\PPE.DBLib\obj\Debug\net7.0\PPE.DBLib.csproj.CoreCompileInputs.cache
-C:\Users\Utilisateur\Desktop\Epreuve E5\PPE.Wpf\PPE.DBLib\obj\Debug\net7.0\PPE.DBLib.dll
-C:\Users\Utilisateur\Desktop\Epreuve E5\PPE.Wpf\PPE.DBLib\obj\Debug\net7.0\refint\PPE.DBLib.dll
-C:\Users\Utilisateur\Desktop\Epreuve E5\PPE.Wpf\PPE.DBLib\obj\Debug\net7.0\PPE.DBLib.pdb
-C:\Users\Utilisateur\Desktop\Epreuve E5\PPE.Wpf\PPE.DBLib\obj\Debug\net7.0\PPE.DBLib.genruntimeconfig.cache
-C:\Users\Utilisateur\Desktop\Epreuve E5\PPE.Wpf\PPE.DBLib\obj\Debug\net7.0\ref\PPE.DBLib.dll
 Z:\Desktop\C#\WPF\PppWPF\PPE.DBLib\bin\Debug\net7.0\PPE.DBLib.deps.json
 Z:\Desktop\C#\WPF\PppWPF\PPE.DBLib\bin\Debug\net7.0\PPE.DBLib.runtimeconfig.json
 Z:\Desktop\C#\WPF\PppWPF\PPE.DBLib\bin\Debug\net7.0\PPE.DBLib.dll

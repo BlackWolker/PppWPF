@@ -3,36 +3,56 @@
   "WorkspaceRootPath": "Z:\\Desktop\\C#\\WPF\\PppWPF\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{654BB72B-BB35-4C71-B2E0-51A3B10054B2}|PPE.Wpf\\PPE.Wpf.csproj|z:\\desktop\\c#\\wpf\\pppwpf\\ppe.wpf\\windows\\addutilisateur.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{654BB72B-BB35-4C71-B2E0-51A3B10054B2}|PPE.Wpf\\PPE.Wpf.csproj|solutionrelative:ppe.wpf\\windows\\addutilisateur.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{654BB72B-BB35-4C71-B2E0-51A3B10054B2}|PPE.Wpf\\PPE.Wpf.csproj|z:\\desktop\\c#\\wpf\\pppwpf\\ppe.wpf\\viewmodels\\uservm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{654BB72B-BB35-4C71-B2E0-51A3B10054B2}|PPE.Wpf\\PPE.Wpf.csproj|solutionrelative:ppe.wpf\\viewmodels\\uservm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{654BB72B-BB35-4C71-B2E0-51A3B10054B2}|PPE.Wpf\\PPE.Wpf.csproj|z:\\desktop\\c#\\wpf\\pppwpf\\ppe.wpf\\viewmodels\\packvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{654BB72B-BB35-4C71-B2E0-51A3B10054B2}|PPE.Wpf\\PPE.Wpf.csproj|Z:\\Desktop\\C#\\WPF\\PppWPF\\ppe.wpf\\viewmodels\\packvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{654BB72B-BB35-4C71-B2E0-51A3B10054B2}|PPE.Wpf\\PPE.Wpf.csproj|solutionrelative:ppe.wpf\\viewmodels\\packvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{654BB72B-BB35-4C71-B2E0-51A3B10054B2}|PPE.Wpf\\PPE.Wpf.csproj|z:\\desktop\\c#\\wpf\\pppwpf\\ppe.wpf\\view\\packview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{654BB72B-BB35-4C71-B2E0-51A3B10054B2}|PPE.Wpf\\PPE.Wpf.csproj|solutionrelative:ppe.wpf\\view\\packview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{7DBCF5B3-48FE-4B20-A315-CC665C6BF5DB}|PPE.Internal\\PPE.Internal.csproj|Z:\\Desktop\\C#\\WPF\\PppWPF\\ppe.internal\\observableobjet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7DBCF5B3-48FE-4B20-A315-CC665C6BF5DB}|PPE.Internal\\PPE.Internal.csproj|solutionrelative:ppe.internal\\observableobjet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{654BB72B-BB35-4C71-B2E0-51A3B10054B2}|PPE.Wpf\\PPE.Wpf.csproj|z:\\desktop\\c#\\wpf\\pppwpf\\ppe.wpf\\view\\userview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{654BB72B-BB35-4C71-B2E0-51A3B10054B2}|PPE.Wpf\\PPE.Wpf.csproj|solutionrelative:ppe.wpf\\view\\userview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{654BB72B-BB35-4C71-B2E0-51A3B10054B2}|PPE.Wpf\\PPE.Wpf.csproj|z:\\desktop\\c#\\wpf\\pppwpf\\ppe.wpf\\view\\packview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{654BB72B-BB35-4C71-B2E0-51A3B10054B2}|PPE.Wpf\\PPE.Wpf.csproj|solutionrelative:ppe.wpf\\view\\packview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{654BB72B-BB35-4C71-B2E0-51A3B10054B2}|PPE.Wpf\\PPE.Wpf.csproj|z:\\desktop\\c#\\wpf\\pppwpf\\ppe.wpf\\windows\\addpack.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{654BB72B-BB35-4C71-B2E0-51A3B10054B2}|PPE.Wpf\\PPE.Wpf.csproj|solutionrelative:ppe.wpf\\windows\\addpack.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{654BB72B-BB35-4C71-B2E0-51A3B10054B2}|PPE.Wpf\\PPE.Wpf.csproj|z:\\desktop\\c#\\wpf\\pppwpf\\ppe.wpf\\view\\packview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{654BB72B-BB35-4C71-B2E0-51A3B10054B2}|PPE.Wpf\\PPE.Wpf.csproj|solutionrelative:ppe.wpf\\view\\packview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{654BB72B-BB35-4C71-B2E0-51A3B10054B2}|PPE.Wpf\\PPE.Wpf.csproj|z:\\desktop\\c#\\wpf\\pppwpf\\ppe.wpf\\view\\userview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{654BB72B-BB35-4C71-B2E0-51A3B10054B2}|PPE.Wpf\\PPE.Wpf.csproj|solutionrelative:ppe.wpf\\view\\userview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{654BB72B-BB35-4C71-B2E0-51A3B10054B2}|PPE.Wpf\\PPE.Wpf.csproj|z:\\desktop\\c#\\wpf\\pppwpf\\ppe.wpf\\windows\\addutilisateur.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{654BB72B-BB35-4C71-B2E0-51A3B10054B2}|PPE.Wpf\\PPE.Wpf.csproj|solutionrelative:ppe.wpf\\windows\\addutilisateur.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{654BB72B-BB35-4C71-B2E0-51A3B10054B2}|PPE.Wpf\\PPE.Wpf.csproj|z:\\desktop\\c#\\wpf\\pppwpf\\ppe.wpf\\viewmodels\\reservationvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{654BB72B-BB35-4C71-B2E0-51A3B10054B2}|PPE.Wpf\\PPE.Wpf.csproj|solutionrelative:ppe.wpf\\viewmodels\\reservationvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{654BB72B-BB35-4C71-B2E0-51A3B10054B2}|PPE.Wpf\\PPE.Wpf.csproj|z:\\desktop\\c#\\wpf\\pppwpf\\ppe.wpf\\windows\\addpack.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{654BB72B-BB35-4C71-B2E0-51A3B10054B2}|PPE.Wpf\\PPE.Wpf.csproj|solutionrelative:ppe.wpf\\windows\\addpack.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{654BB72B-BB35-4C71-B2E0-51A3B10054B2}|PPE.Wpf\\PPE.Wpf.csproj|z:\\desktop\\c#\\wpf\\pppwpf\\ppe.wpf\\windows\\addutilisateur.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{654BB72B-BB35-4C71-B2E0-51A3B10054B2}|PPE.Wpf\\PPE.Wpf.csproj|solutionrelative:ppe.wpf\\windows\\addutilisateur.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{654BB72B-BB35-4C71-B2E0-51A3B10054B2}|PPE.Wpf\\PPE.Wpf.csproj|Z:\\Desktop\\C#\\WPF\\PppWPF\\ppe.wpf\\windows\\addpack.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{654BB72B-BB35-4C71-B2E0-51A3B10054B2}|PPE.Wpf\\PPE.Wpf.csproj|solutionrelative:ppe.wpf\\windows\\addpack.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{654BB72B-BB35-4C71-B2E0-51A3B10054B2}|PPE.Wpf\\PPE.Wpf.csproj|Z:\\Desktop\\C#\\WPF\\PppWPF\\ppe.wpf\\windows\\addutilisateur.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{654BB72B-BB35-4C71-B2E0-51A3B10054B2}|PPE.Wpf\\PPE.Wpf.csproj|solutionrelative:ppe.wpf\\windows\\addutilisateur.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82C22073-4E0C-4788-96B6-CA1A3458630E}|PPE.DBLib\\PPE.DBLib.csproj|Z:\\Desktop\\C#\\WPF\\PppWPF\\ppe.dblib\\class\\pperemastorecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82C22073-4E0C-4788-96B6-CA1A3458630E}|PPE.DBLib\\PPE.DBLib.csproj|solutionrelative:ppe.dblib\\class\\pperemastorecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,30 +62,33 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "AddPack.xaml.cs",
-              "DocumentMoniker": "Z:\\Desktop\\C#\\WPF\\PppWPF\\PPE.Wpf\\Windows\\AddPack.xaml.cs",
-              "RelativeDocumentMoniker": "PPE.Wpf\\Windows\\AddPack.xaml.cs",
-              "ToolTip": "Z:\\Desktop\\C#\\WPF\\PppWPF\\PPE.Wpf\\Windows\\AddPack.xaml.cs",
-              "RelativeToolTip": "PPE.Wpf\\Windows\\AddPack.xaml.cs",
-              "ViewState": "AQIAAA8AAAAAAAAAAIBJwEEAAAAAAAAA",
+              "DocumentIndex": 0,
+              "Title": "UserVM.cs",
+              "DocumentMoniker": "Z:\\Desktop\\C#\\WPF\\PppWPF\\PPE.Wpf\\ViewModels\\UserVM.cs",
+              "RelativeDocumentMoniker": "PPE.Wpf\\ViewModels\\UserVM.cs",
+              "ToolTip": "Z:\\Desktop\\C#\\WPF\\PppWPF\\PPE.Wpf\\ViewModels\\UserVM.cs",
+              "RelativeToolTip": "PPE.Wpf\\ViewModels\\UserVM.cs",
+              "ViewState": "AQIAADwAAAAAAAAAAAAUwGkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-12T09:26:12.259Z"
+              "WhenOpened": "2024-05-30T09:44:49.982Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "AddPack.xaml",
-              "DocumentMoniker": "Z:\\Desktop\\C#\\WPF\\PppWPF\\PPE.Wpf\\Windows\\AddPack.xaml",
-              "RelativeDocumentMoniker": "PPE.Wpf\\Windows\\AddPack.xaml",
-              "ToolTip": "Z:\\Desktop\\C#\\WPF\\PppWPF\\PPE.Wpf\\Windows\\AddPack.xaml",
-              "RelativeToolTip": "PPE.Wpf\\Windows\\AddPack.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-04-12T09:24:06.103Z"
+              "DocumentIndex": 3,
+              "Title": "UserView.xaml.cs",
+              "DocumentMoniker": "Z:\\Desktop\\C#\\WPF\\PppWPF\\PPE.Wpf\\View\\UserView.xaml.cs",
+              "RelativeDocumentMoniker": "PPE.Wpf\\View\\UserView.xaml.cs",
+              "ToolTip": "Z:\\Desktop\\C#\\WPF\\PppWPF\\PPE.Wpf\\View\\UserView.xaml.cs",
+              "RelativeToolTip": "PPE.Wpf\\View\\UserView.xaml.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAADAAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-30T09:44:28.552Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -75,56 +98,33 @@
               "RelativeDocumentMoniker": "PPE.Wpf\\View\\PackView.xaml.cs",
               "ToolTip": "Z:\\Desktop\\C#\\WPF\\PppWPF\\PPE.Wpf\\View\\PackView.xaml.cs",
               "RelativeToolTip": "PPE.Wpf\\View\\PackView.xaml.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAIBJwCgAAAAJAAAA",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAC0AAABKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-12T08:34:50.609Z"
+              "WhenOpened": "2024-05-30T09:44:09.104Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "PackView.xaml",
               "DocumentMoniker": "Z:\\Desktop\\C#\\WPF\\PppWPF\\PPE.Wpf\\View\\PackView.xaml",
               "RelativeDocumentMoniker": "PPE.Wpf\\View\\PackView.xaml",
               "ToolTip": "Z:\\Desktop\\C#\\WPF\\PppWPF\\PPE.Wpf\\View\\PackView.xaml",
               "RelativeToolTip": "PPE.Wpf\\View\\PackView.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-04-12T08:34:45.869Z"
+              "WhenOpened": "2024-05-30T09:43:54.321Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "PackVM.cs",
-              "DocumentMoniker": "Z:\\Desktop\\C#\\WPF\\PppWPF\\PPE.Wpf\\ViewModels\\PackVM.cs",
-              "RelativeDocumentMoniker": "PPE.Wpf\\ViewModels\\PackVM.cs",
-              "ToolTip": "Z:\\Desktop\\C#\\WPF\\PppWPF\\PPE.Wpf\\ViewModels\\PackVM.cs",
-              "RelativeToolTip": "PPE.Wpf\\ViewModels\\PackVM.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAHoAAAATAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-12T08:31:00.622Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "UserVM.cs",
-              "DocumentMoniker": "Z:\\Desktop\\C#\\WPF\\PppWPF\\PPE.Wpf\\ViewModels\\UserVM.cs",
-              "RelativeDocumentMoniker": "PPE.Wpf\\ViewModels\\UserVM.cs",
-              "ToolTip": "Z:\\Desktop\\C#\\WPF\\PppWPF\\PPE.Wpf\\ViewModels\\UserVM.cs",
-              "RelativeToolTip": "PPE.Wpf\\ViewModels\\UserVM.cs",
-              "ViewState": "AQIAACwAAAAAAAAAAAAowEUAAAAdAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-12T08:07:31.774Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "AddUtilisateur.xaml.cs",
-              "DocumentMoniker": "Z:\\Desktop\\C#\\WPF\\PppWPF\\PPE.Wpf\\Windows\\AddUtilisateur.xaml.cs",
-              "RelativeDocumentMoniker": "PPE.Wpf\\Windows\\AddUtilisateur.xaml.cs",
-              "ToolTip": "Z:\\Desktop\\C#\\WPF\\PppWPF\\PPE.Wpf\\Windows\\AddUtilisateur.xaml.cs",
-              "RelativeToolTip": "PPE.Wpf\\Windows\\AddUtilisateur.xaml.cs",
-              "ViewState": "AQIAABMAAAAAAAAAAAAUwDEAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-12T07:56:57.212Z",
+              "DocumentIndex": 6,
+              "Title": "UserView.xaml",
+              "DocumentMoniker": "Z:\\Desktop\\C#\\WPF\\PppWPF\\PPE.Wpf\\View\\UserView.xaml",
+              "RelativeDocumentMoniker": "PPE.Wpf\\View\\UserView.xaml",
+              "ToolTip": "Z:\\Desktop\\C#\\WPF\\PppWPF\\PPE.Wpf\\View\\UserView.xaml",
+              "RelativeToolTip": "PPE.Wpf\\View\\UserView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-05-30T09:42:51.826Z",
               "EditorCaption": ""
             },
             {
@@ -136,7 +136,96 @@
               "ToolTip": "Z:\\Desktop\\C#\\WPF\\PppWPF\\PPE.Wpf\\Windows\\AddUtilisateur.xaml",
               "RelativeToolTip": "PPE.Wpf\\Windows\\AddUtilisateur.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-04-12T07:56:43.972Z"
+              "WhenOpened": "2024-05-30T09:42:21.176Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ReservationVM.cs",
+              "DocumentMoniker": "Z:\\Desktop\\C#\\WPF\\PppWPF\\PPE.Wpf\\ViewModels\\ReservationVM.cs",
+              "RelativeDocumentMoniker": "PPE.Wpf\\ViewModels\\ReservationVM.cs",
+              "ToolTip": "Z:\\Desktop\\C#\\WPF\\PppWPF\\PPE.Wpf\\ViewModels\\ReservationVM.cs",
+              "RelativeToolTip": "PPE.Wpf\\ViewModels\\ReservationVM.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-30T09:42:02.056Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ObservableObjet.cs",
+              "DocumentMoniker": "Z:\\Desktop\\C#\\WPF\\PppWPF\\PPE.Internal\\ObservableObjet.cs",
+              "RelativeDocumentMoniker": "PPE.Internal\\ObservableObjet.cs",
+              "ToolTip": "Z:\\Desktop\\C#\\WPF\\PppWPF\\PPE.Internal\\ObservableObjet.cs",
+              "RelativeToolTip": "PPE.Internal\\ObservableObjet.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-03T13:55:18.752Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "PperemastoreContext.cs",
+              "DocumentMoniker": "Z:\\Desktop\\C#\\WPF\\PppWPF\\PPE.DBLib\\Class\\PperemastoreContext.cs",
+              "RelativeDocumentMoniker": "PPE.DBLib\\Class\\PperemastoreContext.cs",
+              "ToolTip": "Z:\\Desktop\\C#\\WPF\\PppWPF\\PPE.DBLib\\Class\\PperemastoreContext.cs",
+              "RelativeToolTip": "PPE.DBLib\\Class\\PperemastoreContext.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAA9wBkAAABAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-03T13:35:01.848Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PackVM.cs",
+              "DocumentMoniker": "Z:\\Desktop\\C#\\WPF\\PppWPF\\PPE.Wpf\\ViewModels\\PackVM.cs",
+              "RelativeDocumentMoniker": "PPE.Wpf\\ViewModels\\PackVM.cs",
+              "ToolTip": "Z:\\Desktop\\C#\\WPF\\PppWPF\\PPE.Wpf\\ViewModels\\PackVM.cs",
+              "RelativeToolTip": "PPE.Wpf\\ViewModels\\PackVM.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-03T13:56:17.443Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AddUtilisateur.xaml.cs",
+              "DocumentMoniker": "Z:\\Desktop\\C#\\WPF\\PppWPF\\PPE.Wpf\\Windows\\AddUtilisateur.xaml.cs",
+              "RelativeDocumentMoniker": "PPE.Wpf\\Windows\\AddUtilisateur.xaml.cs",
+              "ToolTip": "Z:\\Desktop\\C#\\WPF\\PppWPF\\PPE.Wpf\\Windows\\AddUtilisateur.xaml.cs",
+              "RelativeToolTip": "PPE.Wpf\\Windows\\AddUtilisateur.xaml.cs",
+              "ViewState": "AQIAACIAAAAAAAAAAAAqwDkAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-30T08:54:49.109Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AddPack.xaml",
+              "DocumentMoniker": "Z:\\Desktop\\C#\\WPF\\PppWPF\\PPE.Wpf\\Windows\\AddPack.xaml",
+              "RelativeDocumentMoniker": "PPE.Wpf\\Windows\\AddPack.xaml",
+              "ToolTip": "Z:\\Desktop\\C#\\WPF\\PppWPF\\PPE.Wpf\\Windows\\AddPack.xaml",
+              "RelativeToolTip": "PPE.Wpf\\Windows\\AddPack.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-05-30T08:52:58.308Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AddPack.xaml.cs",
+              "DocumentMoniker": "Z:\\Desktop\\C#\\WPF\\PppWPF\\PPE.Wpf\\Windows\\AddPack.xaml.cs",
+              "RelativeDocumentMoniker": "PPE.Wpf\\Windows\\AddPack.xaml.cs",
+              "ToolTip": "Z:\\Desktop\\C#\\WPF\\PppWPF\\PPE.Wpf\\Windows\\AddPack.xaml.cs",
+              "RelativeToolTip": "PPE.Wpf\\Windows\\AddPack.xaml.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA4AAABEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-03T13:08:42.502Z",
+              "EditorCaption": ""
             }
           ]
         }

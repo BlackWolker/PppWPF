@@ -37,7 +37,7 @@ public partial class PperemastoreContext : DbContext
     {
         modelBuilder.Entity<Baie>(entity =>
         {
-            entity.HasKey(e => e.Id).HasName("PK__baie__3213E83F7765CC7A");
+            entity.HasKey(e => e.Id).HasName("PK__baie__3213E83FA1C10F58");
 
             entity.ToTable("baie");
 
@@ -50,7 +50,7 @@ public partial class PperemastoreContext : DbContext
 
         modelBuilder.Entity<DoctrineMigrationVersion>(entity =>
         {
-            entity.HasKey(e => e.Version).HasName("PK__doctrine__79B5C94CB166D142");
+            entity.HasKey(e => e.Version).HasName("PK__doctrine__79B5C94CF66C0996");
 
             entity.ToTable("doctrine_migration_versions");
 
@@ -65,7 +65,7 @@ public partial class PperemastoreContext : DbContext
 
         modelBuilder.Entity<MessengerMessage>(entity =>
         {
-            entity.HasKey(e => e.Id).HasName("PK__messenge__3213E83FEB198535");
+            entity.HasKey(e => e.Id).HasName("PK__messenge__3213E83F872ED776");
 
             entity.ToTable("messenger_messages");
 
@@ -101,7 +101,7 @@ public partial class PperemastoreContext : DbContext
 
         modelBuilder.Entity<Pack>(entity =>
         {
-            entity.HasKey(e => e.Id).HasName("PK__pack__3213E83FE4869AB5");
+            entity.HasKey(e => e.Id).HasName("PK__pack__3213E83F274208CC");
 
             entity.ToTable("pack");
 
@@ -109,6 +109,7 @@ public partial class PperemastoreContext : DbContext
             entity.Property(e => e.Name)
                 .HasMaxLength(255)
                 .HasColumnName("name");
+            entity.Property(e => e.NbSlot).HasColumnName("nb_slot");
             entity.Property(e => e.PicturePath)
                 .HasMaxLength(255)
                 .HasColumnName("picture_path");
@@ -120,7 +121,7 @@ public partial class PperemastoreContext : DbContext
 
         modelBuilder.Entity<Reservation>(entity =>
         {
-            entity.HasKey(e => e.Id).HasName("PK__reservat__3213E83F1CB5B7E8");
+            entity.HasKey(e => e.Id).HasName("PK__reservat__3213E83F1D07FFD0");
 
             entity.ToTable("reservation");
 
@@ -137,6 +138,8 @@ public partial class PperemastoreContext : DbContext
                 .HasColumnType("date")
                 .HasColumnName("date_start");
             entity.Property(e => e.PackId).HasColumnName("pack_id");
+            entity.Property(e => e.Quantity).HasColumnName("quantity");
+            entity.Property(e => e.Renew).HasColumnName("renew");
 
             entity.HasOne(d => d.Customer).WithMany(p => p.Reservations)
                 .HasForeignKey(d => d.CustomerId)
@@ -151,7 +154,7 @@ public partial class PperemastoreContext : DbContext
 
         modelBuilder.Entity<Unite>(entity =>
         {
-            entity.HasKey(e => e.Id).HasName("PK__unite__3213E83F15BCEA3C");
+            entity.HasKey(e => e.Id).HasName("PK__unite__3213E83FDCB8711B");
 
             entity.ToTable("unite");
 
@@ -172,13 +175,12 @@ public partial class PperemastoreContext : DbContext
 
             entity.HasOne(d => d.ReservationId).WithMany(p => p.Unites)
                 .HasForeignKey(d => d.ReservationIdId)
-                .OnDelete(DeleteBehavior.ClientSetNull)
                 .HasConstraintName("FK_1D64C1183C3B4EF0");
         });
 
         modelBuilder.Entity<User>(entity =>
         {
-            entity.HasKey(e => e.Id).HasName("PK__user__3213E83F6F2E6A74");
+            entity.HasKey(e => e.Id).HasName("PK__user__3213E83F5DDABE7D");
 
             entity.ToTable("user");
 

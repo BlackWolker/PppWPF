@@ -7,12 +7,6 @@ public partial class User
 {
     public int Id { get; set; }
 
-    public string FirstName { get; set; } = null!;
-
-    public string LastName { get; set; } = null!;
-
-    public string? Addresse { get; set; }
-
     public string Email { get; set; } = null!;
 
     /// <summary>
@@ -21,6 +15,12 @@ public partial class User
     public string Roles { get; set; } = null!;
 
     public string Password { get; set; } = null!;
+
+    public string FirstName { get; set; } = null!;
+
+    public string LastName { get; set; } = null!;
+
+    public string? Addresse { get; set; }
 
     public virtual ICollection<Reservation> Reservations { get; set; } = new List<Reservation>();
 }
